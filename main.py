@@ -1,18 +1,16 @@
-#Calculation Example
-#print(2+2)
-#print(20+10*30)
-#print(10*20+30)
-
-#x=int(input("Enter a number: "))
-#print(x)
-
 
 #first_day_coins = 20
-#coins_every_day = 10
+#coins_every_day = int(input("What is the number of coins you get every day? "))
 #print( first_day_coins+ #coins_every_day * 30 )
 
+joke="Do you know what object has four legsand can't move?\nIt's a chair"
+joke2='''Do you know what object has four legsand can't move? 
+It's a chair'''
+print(joke)
+print(joke2)
 
+silly_string = '''He said, "Aren't can't shouldn't wouldn't."'''
+print(silly_string)
 
-first_day_coins = 20
-coins_every_day = int(input("What is the number of coins you get every day? "))
-print( first_day_coins+ coins_every_day * 30 )
+silly_string2 = '''He said, "Aren't can't shouldn't wouldn't." (\''')'''
+print(silly_string2)
