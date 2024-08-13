@@ -1,41 +1,20 @@
-#String Embedding
-
-#name="My name is %s"
-#print(name % "Youssef")
-#print(name[3])
+# shopping_list =[[1,5,6,7],'bananas',[9,'oranges']]
+# print(len(shopping_list))
 
 
 
-#String Upper and Lower cases
-
-#Mr = "mr. Salah"
-#mr_first_letter_capital=Mr.capitalize()
-#mr_capital=Mr.upper()
-#mr_small=Mr.lower()
-
-#print(mr_first_letter_capital)
-#print(mr_capital)
-#print(mr_small)
+# shopping_list = ['Watermelon','mango','cherry','bananas','oranges']
+# shopping_list.append('lemon')
+# print(shopping_list)
 
 
 
-#String Multiplication
+# shopping_list = ['Watermelon','ornage','cherry','bananas','oranges']
+# del shopping_list[3]
+# shopping_list.append('lemon')
+# print(shopping_list)
 
-#string="youssef "
-#print(string*5)
 
-
-#String Substring
-#new_string=string[1:len(string)]
-#print(new_string)
-
-#String Concaenation
-#print("Length of %s is %s"%(string,len(string)))
-#print(string+new_string)
-
-#Final 
-
-#name = input("Please enter the student name\n")
-#email = "Dear %s, there will be an exam in 10/4\nthank you\n"
-#print( name[0].upper() + '\n' + email % name + Mr)
-
+string = 'This is my string that I will convert to list'
+list = (string.split())
+print(list)
