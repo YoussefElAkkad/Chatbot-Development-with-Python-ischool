@@ -1,45 +1,41 @@
-# shopping_list =[[1,5,6,7],'bananas',[9,'oranges']]
-# print(len(shopping_list))
+# #Lists
+# jobs = ['mohamed', ' piano player','salwa',
+# 'sewing','john','drams player',
+# 'smaia','dancer' ]
+# #Map (key and value)
+# jobs_map = {'mohamed':'piano player', 'salwa':'sewing', 'john':'drums player',
+#  'smaia':'dancer' }
 
-
-
-# shopping_list = ['Watermelon','mango','cherry','bananas','oranges']
-# shopping_list.append('lemon')
-# print(shopping_list)
-
-
-
-# shopping_list = ['Watermelon','ornage','cherry','bananas','oranges']
-# del shopping_list[3]
-# shopping_list.append('lemon')
-# print(shopping_list)
-
-
-# string = 'This is my string that I will convert to list'
-# list = (string.split()) # by white space 
-# print(list)
+# print(jobs_map['mohamed'])
+# del(jobs_map['mohamed'])
+# print(jobs_map)
+# #changing a value in a key map
+# jobs_map['smaia']='Banker'
+# print(jobs_map['smaia'])
 
 
 
 
 
 
-# assignment1 = [
-#   ['Omar', 89,],
-#   ['Ali', 90],
-#   ['Emad', 94],
-#   ['Samy', 92]
-# ] #List of Lists(nested_Lists)
 
-# assignment1.append(['Amr', 90])
+# characters = {
+#     "Mario": "Super Mario Bros.",
+#     "Link": "The Legend of Zelda",
+#     "Master Chief": "Halo",
+#     "Kratos": "God of War",
+#     "Nathan Drake": "Uncharted",
+#     "Solid Snake": "Metal Gear Solid"
+# }
 
-# print(assignment1)
-# print(assignment1[0][1])
-# print("\nThe number of students in assignment 1 is:" ,len(assignment1))
+# print(
+#     "Hello! I'm a chatbot that knows about famous video game main characters. Ask me a question!"
+# )
 
+# user_input = input("What would you like to know? ")
 
+# print("Here are %s's character: %s" % (user_input, characters[user_input]))
 
-# x=[1,2,3,4,5]
-# y=[6,7,8,9,10]
-# print(x+y)
-# print(x*3)
+# print("Goodbye!")
+
+#we cannot add two maps togethor, will get an error
