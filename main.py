@@ -143,3 +143,44 @@
 # grade_tracker.add_grade("Physics",100)
 # grade_tracker.add_grade("English",95)
 # grade_tracker.display_student_info()
+
+
+
+
+
+
+
+
+
+class CarRental:
+    def __init__(self):
+        self.cars =[]
+    def add_car(self,car_model):
+        car = {'model': car_model, 'available': True}  # Create a dictionary for each car
+        self.cars.append(car)  # Append the car dictionary to the list
+    def rent_car(self, car_model):
+        for car in self.cars:
+            if car['model'] == car_model and car['available']:
+                car['available'] = False
+                print("Car rented:", car['model'])
+                break
+        else:
+            print("Car not available for rental!")
+    
+    def return_car(self, car_model):
+        for car in self.cars:
+            if car['model'] == car_model and not car['available']:
+                car['available'] = True
+                print("Car returned:", car['model'])
+                break
+        else:
+            print("Car not rented or not found!")
+
+car=CarRental()
+car.add_car("toyota")
+car.add_car("Mercedes")
+car.rent_car("toyota")
+car.rent_car("Seat")
+car.return_car("BMW")
+car.return_car("toyota")
+car.return_car("Mercedes")
