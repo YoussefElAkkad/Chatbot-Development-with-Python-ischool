@@ -83,30 +83,63 @@
 
 
 
-class Library:
-    def __init__(self):
-        self.books = []
+# class Library:
+#     def __init__(self):
+#         self.books = []
     
-    def add_book(self, title, author):
-        book = {'title': title, 'author': author, 'available': True}
-        self.books.append(book)
+#     def add_book(self, title, author):
+#         book = {'title': title, 'author': author, 'available': True}
+#         self.books.append(book)
     
-    def remove_book(self, title):
-        for book in self.books:
-            if book['title'] == title:
-                self.books.remove(book)
-                break
+#     def remove_book(self, title):
+#         for book in self.books:
+#             if book['title'] == title:
+#                 self.books.remove(book)
+#                 break
     
-    def display_available_books(self):
-        for book in self.books:
-            if book['available']:
-                print("Title:", book['title'])
-                print("Author:", book['author'])
-                print()
+#     def display_available_books(self):
+#         for book in self.books:
+#             if book['available']:
+#                 print("Title:", book['title'])
+#                 print("Author:", book['author'])
+#                 print()
 
-library=Library()
-library.add_book("The Great Gatspy","F. Scott Fitzgerald")
-library.add_book("To Kill a Mockingbird","Harper Lee")
-library.display_available_books()
-library.remove_book("To Kill a Mockingbird")
-library.display_available_books()
+# library=Library()
+# library.add_book("The Great Gatspy","F. Scott Fitzgerald")
+# library.add_book("To Kill a Mockingbird","Harper Lee")
+# library.display_available_books()
+# library.remove_book("To Kill a Mockingbird")
+# library.display_available_books()
+
+
+
+
+# class GradeTracker:
+#     def __init__(self, student_name):
+#         self.student_name = student_name
+#         self.grades = {}
+    
+#     def add_grade(self, subject, grade):
+#         self.grades[subject] = grade
+    
+#     def calculate_average_grade(self):
+#         total_grades = 0
+#         for grade in self.grades.values():
+#             total_grades += grade
+#         average_grade = total_grades / len(self.grades)
+#         return average_grade
+    
+#     def display_student_info(self):
+#         print("Student Name:", self.student_name)
+#         print()
+#         for subject, grade in self.grades.items():
+#             print("Subject:", subject)
+#             print("Grade:", grade)
+#             print()
+
+
+# grade_tracker=GradeTracker("Youssef Tamer")
+# grade_tracker.add_grade("Math",98)
+# grade_tracker.add_grade("Physics",100)
+# grade_tracker.add_grade("English",95)
+# grade_tracker.display_student_info()
