@@ -1,31 +1,6 @@
-# import turtle
-# t=turtle.Pen()
-# t.forward(50)
-# t.left(90)
-# t.forward(50)
-# t.left(90)
-# t.forward(50)
-# t.left(90)
-# t.forward(50)
-# t.left(90)
-
-# #t.reset()
-
-# t.backward(100)
-# t.up()
-# t.right(90)
-# t.forward(20)
-# t.left(90)
-# t.down()
-# t.forward(100)
-
-
-# # import turtle
-
-# # my_turtle = turtle.Turtle()
-# # my_turtle.forward(100)
-# # my_turtle.left(120)
-# # my_turtle.forward(100)
-# # my_turtle.left(120)
-# # my_turtle.forward(100)
-# turtle.done()
+import turtle
+t=turtle.Turtle()
+for i in range(0,4):
+    t.forward(50)
+    t.left(90)
+turtle.done()
