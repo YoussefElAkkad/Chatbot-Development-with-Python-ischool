@@ -23,3 +23,6 @@ def double(x):
 
 number=7
 print(f"Double of {number} is {double(number)}.")
+
+pi=3.14159265359
+print(f"pi = {pi:.4f}")
